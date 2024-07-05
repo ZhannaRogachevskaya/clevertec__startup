@@ -1,0 +1,28 @@
+.card__download {
+    width: 240px;
+
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.title__card_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 71px;
+    padding: 12px 24px;
+}
+
+.card__download_btns {
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+@media (max-width: 360px) {
+    .card__download {
+        width: 100%;
+    }
+    .title__card_down {
+        text-align: center;
+    }
+}

@@ -1,0 +1,69 @@
+.wind__back {
+    max-width: 1440px;
+    height: 1024px;
+    background: url('./blure.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window__confirm {
+    width: 539px;
+    height: 428px;
+    background-color: #ffffff;
+    padding: 64px 85.5px 0 85.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img__confirm {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+    background: url('./Suggested.svg') center;
+}
+.confirm__title {
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+}
+.confirm__text {
+    color: #8c8c8c;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.group__input {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 24px;
+}
+/* .error-character {
+    border: 1px solid red;
+} */
+@media (max-width: 620px) {
+    .window__confirm {
+        width: 328px;
+        height: 457px;
+    }
+    .confirm__title {
+        width: 296px;
+    }
+    .confirm__text {
+        width: 296px;
+    }
+}
+.vi__character.vi__character--inactive {
+    background-color: #ffffff;
+}
+.vi__character {
+    border: 1px solid #d9d9d9;
+    width: 40px;
+    height: 40px;
+}
+.error {
+    border: 1px solid red;
+}
+.select_error {
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,35 @@
+.modal__success {
+}
+.ant-modal.css-dev-only-do-not-override-1rqnfsa.ant-modal-confirm.ant-modal-confirm-success.modal__success
+    .ant-modal-confirm-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+}
+.ant-modal.css-dev-only-do-not-override-1rqnfsa.ant-modal-confirm.ant-modal-confirm-success.modal__success
+    .ant-modal-confirm-body-wrapper
+    .ant-modal-confirm-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-modal-confirm .ant-modal-confirm-content {
+    font-size: 23px;
+    font-weight: 500;
+    width: 100%;
+}
+.ant-modal.css-dev-only-do-not-override-1rqnfsa.ant-modal-confirm.ant-modal-confirm-success.modal__success
+    .ant-modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ant-modal-confirm-body-wrapper {
+    width: 100%;
+}
+.ant-modal-confirm-body {
+    width: 100%;
+}

@@ -1,0 +1,63 @@
+.content {
+    width: 100%;
+    height: 856px;
+}
+.btn__reviews {
+    align-self: flex-end;
+}
+.wrapper {
+    max-width: 100%;
+    height: 100%;
+    background: url('./Main page_light.jpg') center bottom;
+    padding: 24px 24px 42px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link.btn__reviews.fs16_2b.reviews {
+    width: 171px;
+}
+@media (max-width: 834px) {
+    .content {
+        height: 1000px;
+    }
+    .wrapper {
+        height: 100%;
+        background: url('./Main page_light.jpg') center bottom;
+    }
+}
+@media (min-width: 360px) and (max-width: 710px) {
+    .content {
+        height: 100%;
+    }
+    footer {
+        display: flex;
+
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .btn__reviews {
+        align-self: center;
+    }
+}
+@media (max-width: 360px) {
+    .content {
+        height: 100%;
+    }
+    footer {
+        display: flex;
+
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .btn__reviews {
+        align-self: center;
+    }
+    .ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link.btn__reviews.fs16_2b {
+        margin-top: 24px;
+        color: #2f54eb;
+    }
+    .ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link.btn__reviews.fs16_2b span {
+        font-size: 16px;
+    }
+}

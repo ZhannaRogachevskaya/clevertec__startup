@@ -1,0 +1,88 @@
+.window__background {
+    max-width: 1440px;
+    height: 1024px;
+    background: url('./blure.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__login_enter {
+    width: 539px;
+    height: 742px;
+    background-color: #ffffff;
+    padding: 64px 85.5px 0 85.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon__logo {
+    background: url('./logo.svg');
+    width: 309px;
+    height: 76px;
+    margin-bottom: 48px;
+}
+.btns__form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.parol__text {
+    color: #8c8c8c;
+    font-size: 12px;
+    line-height: 15.6px;
+    margin-bottom: 28px;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 24px;
+    color: #262626;
+    border-radius: 0px;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link a {
+    font-size: 16px;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link:active {
+    border-bottom: 1px solid #2f54eb;
+    color: #2f54eb;
+}
+
+span.ant-input-group-wrapper.ant-input-group-wrapper-outlined.css-dev-only-do-not-override-1rqnfsa {
+    margin-bottom: 32px;
+    height: 40px;
+}
+span.ant-input-affix-wrapper.css-dev-only-do-not-override-1rqnfsa.ant-input-outlined.ant-input-password {
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-primary {
+    background-color: #2f54eb;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-primary span {
+    font-size: 16px;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-default {
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-default span {
+    font-size: 16px;
+}
+input.ant-input.css-dev-only-do-not-override-1rqnfsa:focus {
+    background-color: rgb(228, 226, 108);
+}
+@media (max-width: 620px) {
+    .form__login_enter {
+        width: 328px;
+        height: 612px;
+        padding: 32px 16px 0 16px;
+    }
+    .icon__logo {
+        background: url('./logo.mini.svg');
+        width: 203px;
+        height: 50px;
+        margin-bottom: 48px;
+    }
+}

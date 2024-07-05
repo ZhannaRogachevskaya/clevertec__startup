@@ -1,0 +1,51 @@
+.wind__back {
+    max-width: 1440px;
+    height: 1024px;
+    background: url('./blure.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check__error {
+    width: 539px;
+    height: 355px;
+    background-color: #ffffff;
+    padding: 64px 32px 56px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error__ex {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    background: url('./Suggested.svg') center;
+}
+.check__title {
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+}
+.error__text_2 {
+    color: #8c8c8c;
+    margin-bottom: 24px;
+    text-align: center;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-primary.check__btn {
+    width: 167px;
+    height: 40px;
+    border-radius: 2px;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-primary.check__btn span {
+    font-size: 14px;
+}
+@media (max-width: 620px) {
+    .check__error {
+        width: 328px;
+        height: 386px;
+    }
+    .error__ex {
+        width: 80px;
+        height: 80px;
+    }
+}

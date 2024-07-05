@@ -1,0 +1,134 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background: #f0f5ff;
+    height: 168px;
+    padding: 16px 24px;
+}
+.header__title {
+    display: flex;
+    justify-content: space-between;
+}
+.header__title h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.header__title h1 span {
+    font-size: 38px;
+    line-height: 49.4px;
+    font-weight: 700;
+    text-align: left;
+    display: block;
+}
+.breadcrumb {
+    margin-bottom: 14px;
+    line-height: 18.2px;
+    color: #262626;
+}
+.btn__exit {
+    display: flex;
+    align-items: center;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-circle.ant-btn-text {
+    width: 129px;
+    margin-right: 24px;
+}
+@media (max-width: 1260px) {
+    .header__title h1 span {
+        font-size: 34px;
+    }
+}
+@media (max-width: 1150px) {
+    .header__title h1 span {
+        font-size: 28px;
+    }
+}
+@media (max-width: 1010px) {
+    .header__title h1 span {
+        font-size: 24px;
+        line-height: 1.1;
+    }
+}
+@media (min-width: 802px) and (max-width: 868px) {
+    .header {
+        height: 194px;
+    }
+    .header__title h1 {
+        width: 100%;
+    }
+    .header__title h1 span {
+        width: 473px;
+        font-size: 24px;
+        line-height: 31.2px;
+        font-weight: 500;
+    }
+    span.anticon.anticon-setting.setting_out_lined svg {
+        display: none;
+    }
+}
+@media (min-width: 450px) and (max-width: 802px) {
+    .header__title h1 span {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .header__title h1 {
+        max-width: 85%;
+    }
+}
+@media (min-width: 360px) and (max-width: 575px) {
+    button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-circle.ant-btn-primary {
+        background-color: #ffffff;
+        color: #262626;
+    }
+    span.settings {
+        display: none;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 450px) {
+    .header__title h1 span {
+        font-size: 18px;
+        line-height: 1.05;
+        max-width: max-content;
+    }
+    button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-circle.ant-btn-primary {
+        position: absolute;
+        right: 2%;
+        top: 2%;
+    }
+}
+@media (max-width: 360px) {
+    header.header {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        background: #f0f5ff;
+        height: 166px;
+        padding: 16px 24px 16px 24px;
+    }
+
+    .header__title h1 {
+        width: 100%;
+    }
+    .header__title h1 span {
+        width: 100%;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 500;
+    }
+    span.anticon.anticon-setting.setting_out_lined svg {
+        display: block;
+    }
+    span.settings {
+        display: none;
+    }
+    .breadcrumb {
+        margin-bottom: 6px;
+    }
+    button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-circle.ant-btn-primary {
+        background: #ffffff;
+        color: #262626;
+    }
+}

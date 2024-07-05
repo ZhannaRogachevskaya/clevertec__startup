@@ -1,0 +1,25 @@
+.card__mini {
+    min-width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px 2px 0 0;
+}
+.title__card {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+}
+.fs16 {
+    font-size: 16px;
+    color: #262626;
+}
+@media (max-width: 825px) {
+    .card__mini {
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+.wind__back {
+    max-width: 1440px;
+    height: 1024px;
+    background: url('./blure.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window__error {
+    width: 539px;
+    height: 345px;
+    background-color: #ffffff;
+    padding: 64px 85.5px 0 85.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error__ex {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+    background: url('./Suggested.svg') center;
+}
+.error__title {
+    font-size: 24px;
+    font-weight: 500px;
+}
+.error__text_2 {
+    color: #8c8c8c;
+    margin-bottom: 24px;
+    text-align: center;
+}
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-primary {
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+}
+@media (max-width: 620px) {
+    .window__error {
+        width: 328px;
+        height: 317px;
+        padding: 32px 16px;
+    }
+    .error__ex {
+        width: 80px;
+        height: 80px;
+    }
+}

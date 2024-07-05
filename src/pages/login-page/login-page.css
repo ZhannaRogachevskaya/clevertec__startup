@@ -1,0 +1,162 @@
+.window__background {
+    max-width: 1440px;
+    height: 1024px;
+    background: url('./blure.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__login_enter {
+    width: 539px;
+    height: 742px;
+    background-color: #ffffff;
+    padding: 64px 85.5px 0 85.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon__logo {
+    background: url('./logo.svg');
+    width: 309px;
+    height: 76px;
+    margin-bottom: 48px;
+}
+.auth__block {
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    margin-top: 54px;
+}
+label.ant-checkbox-wrapper.ant-checkbox-wrapper-checked.ant-checkbox-wrapper-in-form-item.check.css-dev-only-do-not-override-1rqnfsa {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 22px;
+}
+button#basic_change-password.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-link {
+    width: 129px;
+    display: flex;
+    color: #1890ff;
+    margin: 0;
+    padding: 0 15px;
+}
+.loader {
+    position: absolute;
+
+    z-index: 20;
+    background: rgba(121, 156, 212, 0.5);
+}
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-form-item .ant-form-item-control-input-content {
+    justify-content: flex-end;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-tabs-top > .ant-tabs-nav {
+    margin-bottom: 24px;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-tabs
+    .ant-tabs-tab.ant-tabs-tab-active
+    .ant-tabs-tab-btn {
+    font-size: 16px;
+}
+.ant-tabs.ant-tabs-top.css-dev-only-do-not-override-1rqnfsa {
+    width: 100%;
+}
+.ant-tabs-tab-btn {
+    font-size: 16px;
+}
+.ant-tabs-nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+    text-align: center;
+    width: 50%;
+}
+
+.ant-tabs-tab-btn {
+    width: 100%;
+}
+.ant-tabs-tab {
+    width: 50%;
+    text-align: center;
+}
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0;
+}
+
+.ant-tabs-tab.ant-tabs-tab-btn {
+    width: 100%;
+}
+.ant-tabs.ant-tabs-top.ant-tabs-mobile.css-dev-only-do-not-override-1rqnfsa {
+    width: 100%;
+}
+form.ant-form.ant-form-horizontal.css-dev-only-do-not-override-1rqnfsa {
+    width: 100%;
+}
+input.ant-input.css-dev-only-do-not-override-1rqnfsa.ant-input-outlined {
+    width: 100%;
+    border-radius: 2px;
+    height: 40px;
+    border-left: 1px solid #d9d9d9;
+}
+.ant-form-item-explain.ant-form-item-explain-connected.css-dev-only-do-not-override-1rqnfsa div {
+    font-size: 12px;
+    margin-bottom: 28px;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-input-group .ant-input-group-addon {
+    border-radius: 2px;
+    border-right: 1px solid #d9d9d9;
+}
+:where(
+        .css-dev-only-do-not-override-1rqnfsa
+    ).ant-input-group-wrapper-outlined.ant-input-group-wrapper-status-error
+    .ant-input-group-addon {
+    color: #d9d9d9;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa) a {
+    font-size: 16px;
+}
+span.ant-input-affix-wrapper.css-dev-only-do-not-override-1rqnfsa.ant-input-outlined.ant-input-password {
+    width: 100%;
+    border-radius: 2px;
+    height: 40px;
+    margin-bottom: 32px;
+}
+.ant-form-item-control-input-content {
+    height: 40px;
+    display: flex;
+}
+
+.ant-form-item.remember.css-dev-only-do-not-override-1rqnfsa {
+    width: 100%;
+}
+
+button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-default {
+    margin-top: 16px;
+}
+
+@media (max-width: 620px) {
+    .form__login_enter {
+        width: 328px;
+        height: 612px;
+        padding: 32px 16px 0 16px;
+    }
+    .icon__logo {
+        background: url('./logo.mini.svg');
+        width: 203px;
+        height: 50px;
+        margin-bottom: 48px;
+    }
+    label.ant-checkbox-wrapper.ant-checkbox-wrapper-checked.ant-checkbox-wrapper-in-form-item.check.css-dev-only-do-not-override-1rqnfsa {
+        margin-top: -15px;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 576px) and (max-width: 620px) {
+    label.ant-checkbox-wrapper.ant-checkbox-wrapper-checked.ant-checkbox-wrapper-in-form-item.check.css-dev-only-do-not-override-1rqnfsa {
+        margin-top: 24px;
+    }
+}

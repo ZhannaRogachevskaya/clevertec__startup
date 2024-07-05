@@ -1,0 +1,74 @@
+span.anticon.anticon-menu-fold.trigger svg:hover,
+span.anticon.anticon-menu-unfold.trigger svg:hover {
+    color: #061178;
+}
+.logo {
+    height: 33px;
+    background: url('./logo.svg') no-repeat;
+    margin-top: 30px;
+    margin-bottom: 67px;
+    margin-left: 29px;
+}
+.logo_icon {
+    height: 64px;
+    background: url('./Logo_icon.svg') no-repeat center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.trigger__back {
+    position: absolute;
+    right: -20px;
+    top: 45%;
+    background-color: #ffffff;
+    height: 66px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+    .logo {
+        background: url('./logo_min.svg') no-repeat center;
+
+        margin: 20px 17px 67px;
+    }
+    .anticon.anticon-calendar.ant-menu-item-icon {
+        display: none;
+    }
+    .anticon.anticon-heart.ant-menu-item-icon {
+        display: none;
+    }
+    .anticon.anticon-trophy.ant-menu-item-icon {
+        display: none;
+    }
+    .anticon.anticon-idcard.ant-menu-item-icon {
+        display: none;
+    }
+    img.exit__btn.ant-menu-item-icon {
+        height: 0;
+    }
+
+    .ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-override-1rqnfsa
+        li {
+        padding: 0;
+    }
+    .trigger__back {
+        right: -32px;
+        top: 2%;
+        height: 48px;
+        width: 32px;
+    }
+    aside.ant-layout-sider.ant-layout-sider-light.ant-layout-sider-below {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+    }
+}

@@ -1,0 +1,33 @@
+.ant-modal-confirm-body.ant-modal-confirm-body-has-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    width: 475px;
+}
+.ant-modal.css-dev-only-do-not-override-1rqnfsa.ant-modal-confirm.ant-modal-confirm-error
+    button.ant-btn.css-dev-only-do-not-override-1rqnfsa.ant-btn-primary {
+    width: 74px;
+    height: 40px;
+}
+
+.ant-modal-confirm-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.ant-modal-confirm-paragraph span.ant-modal-confirm-title {
+    font-size: 24px;
+}
+.ant-modal-confirm-paragraph .ant-modal-confirm-content {
+    color: rgba(140, 140, 140, 1);
+}
+
+.ant-modal-confirm-paragraph {
+    height: 49px;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-modal-confirm .ant-modal-confirm-paragraph {
+    row-gap: 0px;
+}

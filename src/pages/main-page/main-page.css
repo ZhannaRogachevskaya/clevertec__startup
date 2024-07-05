@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter';
+}
+#root {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 1024px;
+}
+
+.fs16_b {
+    font-size: 16px;
+    color: #061178;
+    line-height: 1.31;
+}
+.fs16 {
+    font-size: 16px;
+    color: #262626;
+}
+.fs20 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+    line-height: 1.31;
+}
+.fs14_b {
+    color: #2f54eb;
+}
+.fs16_2b {
+    color: #2f54eb;
+    font-size: 16px;
+}
+@media (max-width: 834px) {
+    #root {
+        max-width: 834px;
+    }
+}
+@media (max-width: 360px) {
+    #root {
+        max-width: 360px;
+    }
+}
